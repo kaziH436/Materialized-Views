@@ -22,4 +22,20 @@ This query took 3secs and its slow so materialized view solves this
     select id, avg(val), couint(*)
     from random_tab
     group by id;
-    
+
+This took 63 ms
+
+### Disadvantages
+this data in the materialized view will not get automatically updated so this will need to be updated manullay by refresj
+
+        refresh materialized view mv_random_tab
+
+## Difference between materialized view and view
+
+    create view v_random_tab
+    as     
+    select id, avg(val), couint(*)
+    from random_tab
+    group by id;
+This takes 1 sec and view is same as executing the query as is.
+
