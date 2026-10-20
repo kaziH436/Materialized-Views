@@ -1,6 +1,6 @@
 # Materialized-Views
+techTFQ [Materialized View in SQL | Faster SQL Queries using Materialized Views](https://www.youtube.com/watch?v=WzkBZ0byoYE&list=PLavw5C92dz9GbmgiW4TWVnxhjMFOIf0Q7&index=6)
 Stores sql query and stores the data returned from the sql query
-[Materialized View in SQL | Faster SQL Queries using Materialized Views](https://www.youtube.com/watch?v=WzkBZ0byoYE&list=PLavw5C92dz9GbmgiW4TWVnxhjMFOIf0Q7&index=6)
 
     create table random_tab (id int, val, decimal);
     insert into random_tab 
